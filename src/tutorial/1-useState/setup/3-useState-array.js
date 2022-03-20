@@ -1,5 +1,5 @@
 import React from 'react';
-import { data } from '../../../data';
+import { data } from '../../../../../../../react-advanced-2020/src/data';
 
 const UseStateArray = () => {
   const[people, setPeople] = React.useState(data);
